@@ -26,3 +26,28 @@
     --card-border-radius-5: 5rem;
 
 }
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    appearance: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: var(--color-gray-900);
+    overflow-x: hidden;
+    background: var(--color-bg);
+    font-size: 0.9rem;
+}
+.container{
+    width: var(--container-width-lg);
+    max-width: 1800px;
+    margin-inline: auto;
+}
+section{
+    
+}
